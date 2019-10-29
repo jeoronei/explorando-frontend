@@ -1,21 +1,30 @@
 <template>
-  <div class="sobre">
+  <div class="conteudo">
     <h1>{{ msg }}</h1>
+    <div>
+      <b>Apresentação:</b>
+      <a
+        href="https://docs.google.com/presentation/d/1tTc6vslHVjxniWxrEzV3zavOPG-w95isvgUuTUHig4I/edit?usp=sharing"
+      >Google Docs</a>
+      <br />
+      <b>Explorando Frontend:</b>
+      <a href="https://github.com/jeoronei/explorando-frontend">Git</a>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Sobre",
+  name: "Conteudo",
   props: {
     msg: {
       type: String,
-      default: "Sobre"
+      default: "Conteúdo"
     }
   },
   /*eslint-disable */
   mounted() {
-    window.ga("set", "page", "/sobre");
+    window.ga("set", "page", "/conteudo");
     window.ga("send", "pageview");
   }
   /*eslint-enable */
@@ -24,7 +33,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
-.hello {
+.conteudo {
   h3 {
     margin: 40px 0 0;
   }

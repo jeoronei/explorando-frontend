@@ -1,6 +1,12 @@
 <template>
   <div class="contato">
     <h1>{{ msg }}</h1>
+    <div>
+      <b>E-mail:</b> jeoronei.ribinski@hotmail.com
+      <br />
+      <b>Linkedin:</b>
+      <a href="https://www.linkedin.com/in/jeoronei-ribinski/">/in/jeoronei-ribinski/</a>
+    </div>
   </div>
 </template>
 
@@ -24,7 +30,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
-.hello {
+.contato {
   h3 {
     margin: 40px 0 0;
   }

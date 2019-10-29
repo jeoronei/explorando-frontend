@@ -7,17 +7,17 @@ const router = new Router({
     mode: 'hash',
     routes: [
         {
-            path: '/sobre',
-            name: 'sobre',
+            path: '/conteudo',
+            name: 'conteudo',
             component: () => (
-                import('../components/Sobre.vue')
+                import('../components/Conteudo.vue')
             ),
         },
         {
             path: '/',
             name: 'home',
             component: () => (
-                import('../components/HelloWorld.vue')
+                import('../components/Home.vue')
             ),
         },
         {

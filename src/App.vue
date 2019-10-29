@@ -2,8 +2,8 @@
   <div id="app">
     <div class="menu">
       <router-link to="/">Home</router-link>
-      <router-link to="/sobre">Sobre</router-link>
       <router-link to="/apresentacao">Apresentação</router-link>
+      <router-link to="/conteudo">Conteúdo</router-link>
       <router-link to="/contato">Contato</router-link>
     </div>
     <router-view />
@@ -29,7 +29,7 @@ export default {
 .menu {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 350px;
   margin: 0 auto;
 }
 </style>
