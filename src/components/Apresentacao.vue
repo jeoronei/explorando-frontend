@@ -1,21 +1,21 @@
 <template>
-  <div class="hello">
+  <div class="apresentacao">
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Apresentacao",
   props: {
     msg: {
       type: String,
-      default: "Home"
+      default: "Apresentação"
     }
   },
   /*eslint-disable */
   mounted() {
-    window.ga("set", "page", "/");
+    window.ga("set", "page", "/apresentacao");
     window.ga("send", "pageview");
   }
   /*eslint-enable */
