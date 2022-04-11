@@ -23,7 +23,7 @@
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10",
     "websocket-extensions": ">=0.1.4",
-    "minimist": ">=1.2.3",
+    "minimist": ">=1.2.6",
     "acorn": ">=6.4.1",
     "kind-of": ">=6.0.3",
     "serialize-javascript": ">=2.1.1"
